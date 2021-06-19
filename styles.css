@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+}
+
+/*positioning text area*/
+.output{
+    display: block;
+    width: 80%;
+    height: 400px;
+    margin: 30px auto;
+}
+
+/*aligning buttons*/
+.btn-start{
+    width: 100px;
+    height: 40px;
+}               
+.btn-end{
+    width: 100px;
+    height: 40px;
+}
+.container{
+    margin-top: 100px;
+    text-align: center;
+} 
+.button{
+    float: left;
+}
+.btn-start {
+    margin-right: 150px;
+}
