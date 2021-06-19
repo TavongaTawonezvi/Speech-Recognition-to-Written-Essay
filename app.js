@@ -3,7 +3,7 @@ class SpeechRecognitionApi{
     constructor(options){
         const speechToText = window.SpeechRecognition || window.webkitSpeechRecognition;
         this.speechApi = new speechToText();
-        this.output = options.output ? options.output : document.createElement(div);
+        this.output = options.output ? options.output : document.createElement(div); // might conflict with div.container in app.html
         this.speechApi.continuous = true;
         this.speechApi.interimResult = false;
         this.speechApi.onresult = (event) => {
