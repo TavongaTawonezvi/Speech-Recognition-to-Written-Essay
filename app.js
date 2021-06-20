@@ -1,4 +1,5 @@
 
+
 class SpeechRecognitionApi{
     constructor(options){
         const speechToText = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -9,11 +10,11 @@ class SpeechRecognitionApi{
         this.speechApi.onresult = (event) => {
            var resultIndex = event.resultIndex;
            var transcript = event.results[resultIndex][0].transcript;
-           this.output.textxContent += transcript
+           this.output.textContent += transcript;
         }
     }
     init(){
-        this.speachApi.start();
+        this.speechApi.start();
     }
     stop(){
         this.speechApi.stop();
