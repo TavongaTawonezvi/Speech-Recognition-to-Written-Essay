@@ -1,0 +1,45 @@
+html{
+    background-color: black;
+    margin: 150px;
+}
+.row{
+    background-color: black;
+    text-emphasis-color: white;
+    margin-top: 100px;
+    height: 250px;
+}
+p, h2{
+    color:white;
+
+}
+a{
+    background-color: black;
+}
+.d-flex{
+    background-color:black;
+}
+.btn{
+    background:transparent;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+    margin: 18px;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration:none;
+    display:inline-block;
+    outline:none;
+    position:relative;
+    top:0;
+    text-shadow:0 1px 1px rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+     transition: all 0.2s ease-in-out 0s;
+}
+.dark-blue.transparent{
+    border-color:#34495e;
+}
