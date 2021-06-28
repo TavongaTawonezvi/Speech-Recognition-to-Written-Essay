@@ -43,3 +43,28 @@ a{
 .dark-blue.transparent{
     border-color:#34495e;
 }
+.css-1luajct {
+    background: #FFFFFF;
+    color: #000000;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 14px 24px 16px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    border: 0;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    /*-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: -webkit-transform 200ms,background 200ms;
+    -webkit-transition: transform 200ms,background 200ms;
+    transition: transform 200ms,background 200ms;*/
+}
+.css-1luajct:hover{
+    top: -10px;
+   }
