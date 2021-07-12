@@ -2,13 +2,22 @@
     --main-bg-color: #142645;
   }
 html{
+    background-color: default;
+    
+}
+.dark-theme-wrapper{
     background-color: var(--main-bg-color);
-    margin: 150px;
+   position: absolute;
+    bottom: 0px;;
+    top: 0px;
+    right: 0px;
+    left: 0px;
 }
 .row{
     background-color: var(--main-bg-color);
     text-emphasis-color: white;
-    margin-top: 100px;
+    text-align: center;
+    margin-top: 220px;
     height: 250px;
 }
 p, h2{
@@ -20,32 +29,9 @@ p, h2{
 }*/
 .d-flex{
     background-color: var(--main-bg-color);
+
 }
-.btn{
-    background:transparent;
-    border: 2px solid transparent;
-    box-sizing: border-box;
-    cursor: pointer;
-    font-size: 2rem;
-    font-weight: 700;
-    line-height: 1;
-    margin: 18px;
-    padding: 15px 25px;
-    text-align: center;
-    text-decoration:none;
-    display:inline-block;
-    outline:none;
-    position:relative;
-    top:0;
-    text-shadow:0 1px 1px rgba(0, 0, 0, 0.5);
-    -webkit-transition: all 0.2s ease-in-out 0s;
-    -moz-transition: all 0.2s ease-in-out 0s;
-    -ms-transition: all 0.2s ease-in-out 0s;
-     transition: all 0.2s ease-in-out 0s;
-}
-.dark-blue.transparent{
-    border-color:#34495e;
-}
+
 .css-1luajct {
     background: #FFFFFF;
     color: var(--main-bg-color);
@@ -74,4 +60,7 @@ p, h2{
 .css-1luajct:hover{
     top: -10px;
     background: #cddcf7;
+   }
+   .light-theme-wrapper{
+   color: black;
    }
